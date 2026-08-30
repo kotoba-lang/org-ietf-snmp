@@ -6,7 +6,7 @@
 {:paths ["src"]
  :deps {org.clojure/clojure {:mvn/version "1.11.1"}
         kotoba-lang/org-ietf-asn1
-        {:git/url "git@github.com:kotoba-lang/org-ietf-asn1"
+        {:git/url "https://github.com/kotoba-lang/org-ietf-asn1.git"
          :git/sha "e106c53357cf6649f8d3185e68aba0c00470685f"
          :deps/root "."}}
  :aliases
