@@ -23,7 +23,7 @@
   MIB value with no SMI type at all\"; both are simply the universal INTEGER
   tag.  The keyword is the caller's declared intent, not a wire artifact.)"
   (:require [asn1.core :as asn1]
-            [clojure.string :as str]))
+            [kotoba.lang.text :as str]))
 
 ;; ── IP address bytes — real bit ops, not delegated to asn1 ────────────────
 ;;
