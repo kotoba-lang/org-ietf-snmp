@@ -12,7 +12,7 @@
              :snmp/request-id 1
              :snmp/varbinds [{:snmp/oid "1.3.6.1.2.1.1.1.0"
                                :snmp/value {:snmp/type :null}}]}})
-;=> #(byte array), 40 bytes — see test/snmp/message_test.cljc for the hex
+;=> #(byte array), 40 bytes — see test/snmp/message_test.cljk for the hex
 
 (msg/decode-message some-bytes)
 ;=> [:ok {:snmp/version :v1 :snmp/community "public" :snmp/pdu {...}}]
