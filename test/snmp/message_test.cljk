@@ -1,5 +1,5 @@
 (ns snmp.message-test
-  (:require [clojure.test :refer [deftest is testing]]
+  (:require [kotoba.test :refer [deftest is testing]]
             [asn1.core :as asn1]
             [snmp.message :as msg]))
 
